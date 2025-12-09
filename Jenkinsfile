@@ -8,7 +8,7 @@ pipeline{
        }
 stage("program execute"){
 steps{
- sh 'python snake.py'}
+ bat 'python snake.py'}
 }
 
 }
